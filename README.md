@@ -2,12 +2,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <h2>START<h2> <br>
 
-Inside progect: <br>
-
-npm run start<br>
-
+Inside progect: 
+```
+npm run start
+```
+```
 cd backend<br>
+```
+```
+npm run start
+```
 
-npm run start<br>
-
-insert http://localhost:3000 in your browser<br>
+insert http://localhost:3000 in your browser
