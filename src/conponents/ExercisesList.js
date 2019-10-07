@@ -22,13 +22,13 @@ export const ExercisesList = () => {
   const [exercises, setExercises] = useState([])
 
   useEffect(() => {
-    axios.get('http://localhost:9000/exercises')
+    axios.get('http://localhost:5000/exercises')
     .then(res => setExercises(res.data))
     .catch(err => console.log(err))
   }, [])
 
   const deleteExercise = (id) => {
-    axios.delete('http://localhost:9000/exercises/'+ id)
+    axios.delete('http://localhost:5000/exercises/'+ id)
     setExercises(exercises.filter(el => el._id !== id))
   }
 

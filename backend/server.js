@@ -5,12 +5,12 @@ const mongoose = require('mongoose');
 require('dotenv').config()
 
 const app = express();
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
 
-const uri = process.env.ATLAS_URI;
+const uri = 'mongodb://admin:admin123@ds251507.mlab.com:51507/heroku_5h0dt0p1';
 mongoose.connect(uri, {useNewUrlParser: true, useCreateIndex: true});
 const connection = mongoose.connection;
 connection.once('open', () => {
