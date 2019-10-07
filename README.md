@@ -4,13 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Inside progect: 
 ```
-npm run start
+$ npm run start
 ```
 ```
-cd backend<br>
+$ cd backend<br>
 ```
 ```
-npm run start
+$ npm run start
 ```
 
 insert http://localhost:3000 in your browser
