@@ -1,8 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## START
-
-Inside progect: npm run start. <br>
-cd backend <br>
-npm run start <br>
+<h2>START<h2> <br>
+```
+Inside progect: 
+```
+npm run start.
+```
+```
+cd backend
+```
+```
+npm run start
+```
 insert http://localhost:3000 in your browser
