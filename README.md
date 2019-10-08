@@ -13,4 +13,5 @@ $ cd backend<br>
 $ npm run start
 ```
 
-insert http://localhost:3000 in your browser
+insert http://localhost:3000 in your browser<br>
+or visit https://mern-taskss.herokuapp.com/
